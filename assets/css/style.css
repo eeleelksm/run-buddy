@@ -126,3 +126,27 @@ button {
 }
 /*HERO STYLES END*/
 
+/*WHAT YOU DO STYLE*/
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    display: inline-block; /*makes the border line inline with header*/
+    font-size: 50px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid; /*line under header*/
+    border-color: #fce138;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto; /*shorthand setting a top and bottom margin of zero
+    and a left and right margin of auto. tells browser to calculate margins
+    for us*/
+}
