@@ -44,7 +44,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
-/*footer style*/
+/* footer styles */
 footer {
     background: #fce138;
     width: 100%;
@@ -68,7 +68,7 @@ footer a {
     color: #024e76;
 }
 
-  /*HERO STYLES*/
+  /* HERO styles */
 section {
     padding: 60px;
   }
@@ -124,21 +124,29 @@ button {
     font-size: 16px;
     border: none;
 }
-/*HERO STYLES END*/
+/* HERO styles end */
 
-/*WHAT YOU DO STYLE*/
-.intro {
-    text-align: center;
-}
-
-.intro h2 {
-    display: inline-block; /*makes the border line inline with header*/
+/* consolidate the similar code used for headers*/
+.section-title {
     font-size: 50px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
+    display: inline-block; /*makes the border line inline with header*/
     border-bottom: 3px solid; /*line under header*/
+}
+
+.primary-border {
     border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* WHAT WE DO styles */
+.intro {
+    text-align: center;
 }
 
 .intro p {
@@ -149,4 +157,35 @@ button {
     margin: 0 auto; /*shorthand setting a top and bottom margin of zero
     and a left and right margin of auto. tells browser to calculate margins
     for us*/
+}
+/* WHAT WE DO end */
+
+/* WHAT YOU DO styles */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
 }
