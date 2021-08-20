@@ -89,5 +89,24 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
-    
+}
+
+.heroform h3 {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    font-size: large;
+    border: 1px solid #024e76;
+    padding: 7px 15px;
+    display: block; /*puts on each separate line like "blocks"*/
+    font-size: 16px;
+    color: #024e76;
+    width: 100%; /* bring it all the way out*/
+    margin-bottom: 15px; /*add space to bottom of input fields*/
 }
