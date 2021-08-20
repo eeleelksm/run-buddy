@@ -44,6 +44,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/*footer style*/
 footer {
     background: #fce138;
     width: 100%;
@@ -67,6 +68,7 @@ footer a {
     color: #024e76;
 }
 
+  /*HERO STYLES*/
 section {
     padding: 60px;
   }
@@ -93,7 +95,7 @@ section {
 
 .heroform h3 {
     margin: 0px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .hero-form p {
@@ -110,3 +112,16 @@ section {
     width: 100%; /* bring it all the way out*/
     margin-bottom: 15px; /*add space to bottom of input fields*/
 }
+
+.hero-form label {
+    margin: 0 5px; /*movede the text above input fields over slightly*/
+}
+
+button {
+    background-color: #024e76;
+    color: #fce138;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+/*HERO STYLES END*/
