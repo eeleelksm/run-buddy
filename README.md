@@ -13,3 +13,4 @@ https://eeleelksm.github.io/run-buddy/
 Made with ❤️ by Keshia-Lee
 
 ### ©️2019 Run Buddy, Inc
+git 
