@@ -150,10 +150,11 @@ button {
 .section-title {
     font-size: 50px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block; /*makes the border line inline with header*/
     border-bottom: 3px solid; /*line under header*/
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -165,9 +166,6 @@ button {
 }
 
 /* WHAT WE DO styles */
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -177,12 +175,12 @@ button {
     margin: 0 auto; /*shorthand setting a top and bottom margin of zero
     and a left and right margin of auto. tells browser to calculate margins
     for us*/
+    text-align: center;
 }
 /* WHAT WE DO end */
 
 /* WHAT YOU DO styles */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -212,7 +210,6 @@ button {
 
 /*Trainers styles*/
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -235,14 +232,6 @@ button {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -262,7 +251,6 @@ button {
 
 /* reach out style*/
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -300,3 +288,14 @@ button {
     color: #fce138;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
