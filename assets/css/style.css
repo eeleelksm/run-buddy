@@ -438,6 +438,8 @@ section {
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .contact-form button:hover {
